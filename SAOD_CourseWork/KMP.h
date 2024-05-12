@@ -14,6 +14,9 @@ public:
     static KMP* GetInstance();
     static void DestroyInstance();
 #pragma endregion 
+    
+private:
+    std::vector<int> buildPrefixTable(const std::string& pattern);
 
 public:
     std::vector<int> findSubstring(const std::string& main, const std::string& sub);

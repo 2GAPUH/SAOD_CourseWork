@@ -33,7 +33,7 @@ int main()
 
 
     int choice;
-    std::string choiceString = "1 - KMP search \n2 - Boyer-Moore search \n3 - Aho–Corasick search \n4 - Rabin–Karp search \n0 - Exit \n";
+    std::string choiceString = "1 - KMP search \n2 - Boyer-Moore search \n3 - Aho-Corasick search \n4 - Rabin-Karp search \n0 - Exit \n";
     std::string subString = "";
     std::vector<int> result;
     result.clear();
